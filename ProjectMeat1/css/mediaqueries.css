@@ -1,0 +1,41 @@
+@media only screen and (max-width:1500px) {
+    
+    #body{
+        background-color:#0D0D29;
+        color:white;
+    }
+    #card-header{
+        border-color: white;
+        color:white;
+        background-color: #0D0D29;
+    }
+    #card-body{
+        color: #0D0D29;
+    }
+
+    #buttonCard:focus{
+        color:white;
+    
+    }
+    #aheader{
+        color:white;
+        text-decoration: none;
+    }#загаловка1{
+    margin-left: auto;
+    font-size: small;
+    text-align: center;
+    }
+   
+    #imgSchools{
+        width: auto;
+        height:auto;
+    }
+ 
+    #col{
+     
+        margin-top:100px ;
+    }
+    #header{
+        margin: 10px;
+    }
+}

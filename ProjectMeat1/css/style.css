@@ -1,0 +1,47 @@
+@media only screen and (min-width:1500px){
+    
+#body{
+    background-color:#0D0D29;
+    color:white;
+}
+#card-header{
+    border-color: white;
+    color:white;
+    background-color: #0D0D29;
+}
+#card-body{
+    color: #0D0D29;
+}
+
+#buttonCard{
+    
+   
+}
+#aheader{
+    color:white;
+    text-decoration: none;
+}
+#загаловка1{
+    margin-left: auto;
+    }
+    #imgSchools{
+        width: 200px;
+        height: 150px;
+    }
+    #container{
+         display: flex;
+         align-items: stretch;
+        justify-content: space-around;
+        margin: 10%;
+    
+        
+    }
+    #col{
+        width: 90%;
+       
+    }
+    #header{
+        margin: 10px;
+    }
+   
+}

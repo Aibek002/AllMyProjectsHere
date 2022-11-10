@@ -1,0 +1,78 @@
+#form{
+    margin: 40%;
+    box-sizing: border-box;
+    width: 512px;
+    height: 444px;
+    background: #F0FFFF;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    height: 444px;
+}
+#form1{
+    margin: 30%;
+    box-sizing: border-box;
+    width: 512px;
+    height: 400px;
+    background: #F0FFFF;
+    border: 1px solid #ebe8e8;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;height: 500px;
+}
+#registerP{
+    margin-left:10%;
+}
+#inputEmail{
+position: absolute;
+margin-left: 5%;
+width: 323px;
+height: 36px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#inputName{
+ position: absolute;
+    margin-left: 5%;
+    width: 323px;
+    height: 36px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#inputPassword{
+    position: absolute;
+margin-left: 5%;
+width: 323px;
+height: 36px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#inputPassword1{
+    position: absolute;
+margin-left: 5%;
+
+width: 323px;
+height: 36px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#buttonSubmit{
+position: absolute;
+margin-left: 5%;
+margin-top: 2%;
+width: 330px;
+height: 36px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#h1Font{
+    margin-left: 30%;
+}
