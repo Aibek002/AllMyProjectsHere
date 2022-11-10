@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #id_title{
+    width:500px;
+    background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+    }
+    #id_news{
+    background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+    width:500px;
+    }
+</style>
+</head>
+<body>
+<div align="center" class="features">
+    <h1>Жаңалықтарды енгізу</h1>
+    <form method="post">
+        {% csrf_token %}
+        <p style="width:300px"> {{ form.as_p }}</p><br>
+
+        <span>{{ error }}</span>
+        <button style="width:500px" type="submit" class="btn btn-primary">Қосу</button>
+    </form>
+</div>
+</body>
+</html>

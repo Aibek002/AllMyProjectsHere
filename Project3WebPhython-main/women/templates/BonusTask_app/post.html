@@ -1,0 +1,20 @@
+{% extends 'BonusTask_app/base.html' %}
+
+{% block content %}
+<h1>Reading in 🗒</h1>
+<h1>--------------------------------------------------------------------------</h1>
+
+<p style="font-size:20px">{{post.time_create}}<span style="font-size:40px">⏱</span></p>
+<h1 >{{post.title}}</h1>
+
+<h2>{{post.nameAdmin}}
+</h2>
+{% if post.photo %}
+<p><img class="img-article-left" src="{{post.media}}"></p>
+{% endif %}
+{{post.media}}
+<h4>{{post.content}}</h4>
+
+
+
+{% endblock %}

@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color:  rgb(25, 25, 112);;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color:  rgb(25, 25, 112);;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color:  rgb(25, 25, 112);;
+}
+
+.aside {
+  background-color: rgb(25, 25, 112);;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: rgb(25, 25, 112);;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+  @media only screen and (min-width: 620px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 40%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 60%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.menu a {
+  color: white;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: white;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap:wrap ;
+  
+}
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+
+  }
+  .body{
+    font-size: 5px;
+  }
+  div{
+    font-size: 5px;
+  }
+  table{
+    font-size: 5px;
+  }
+  .footer{
+    height: 50px;
+  }
+  co
+  .col-3.menu{
+    height: 80%;
+
+  }
+  .footer{
+    font-size: 6px;
+  }
+  .col-3.right{
+    height: 100%;
+  }
+  .img{
+    height: 10px;
+    width: ;
+  }
+  .aside{
+    font-size: 5px;
+  }
+
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: rgb(25, 25, 112);
+  padding: 20px;
+  
+}
+ table{
+     font-family: "Sofia", sans-serif;
+
+  }
+  input{
+     font-family: "Sofia", sans-serif;
+
+
+  }
+body {
+  font-family: "Sofia", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;  
+  display: block;
+
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 40px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: rgb(25, 25, 112);
+  color: white;
+    display: block;
+
+  padding: 15px;
+}
+.fa {
+  padding: 70px;
+  font-size: 40px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 2px;
+}
+
+
+.fa-facebook {
+  background: rgb(25, 25, 112);
+  color: white;
+}
+
+.fa-twitter {
+   background: rgb(25, 25, 112);
+  color: white;
+}
+
+.fa-google {
+   background: rgb(25, 25, 112);
+  color: white;
+}
+.fa-youtube {
+  background: rgb(25, 25, 112);
+
+  color: white;
+}
+
+.fa-instagram {
+  background:  rgb(25, 25, 112);
+  color: white;
+}
+
+.fa-pinterest {
+  background:  rgb(25, 25, 112);
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background:  rgb(25, 25, 112);
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background:  rgb(25, 25, 112);
+  padding-left: 6 00px ;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: rgb(25, 25, 112);
+  color: white ;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color:  rgb(25, 25, 112);
+}
+
+
+.aside {
+  background-color: rgb(25, 25, 112);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+table {
+  font-family: italic;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  color: white;
+  background-color: rgb(25, 25, 112);
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+td{
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+#RAL{
+  background-color: red;
+}
+#RAL1{
+  background-color: blue;
+}
+#RAL2{
+  background-color: green;
+}
+tr:nth-child(even) {
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(25, 25, 112);
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+h1{
+  color: white;
+}
+.grid-container > div {
+  background-color:rgb(25, 25, 112);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.elementor-15369 .elementor-element.elementor-element-f5916af:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-15369 .elementor-element.elementor-element-f5916af > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #082673;
+}.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}

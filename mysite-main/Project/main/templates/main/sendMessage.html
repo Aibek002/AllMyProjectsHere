@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #id_from_email{
+
+    width:450px;
+    background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+
+
+    }
+    #id_subject{
+    background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+    width:450px;
+    }
+    #id_message{
+      background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+    width:500px;
+    }
+</style>
+</head>
+<body>
+<div align="center"><img src="https://avatars.mds.yandex.net/i?id=4086a27e0726a9bdab6eae7c7d78808f-5875850-images-thumbs&n=13&exp=1"></div>
+<div style="margin-top:100px;">
+
+
+
+    <div align="center">
+
+<h1 style="
+font-family: 'Mulish';
+font-style: normal;
+margin-bottom:50px;
+line-height: 19px;" class="text-center">Отправкa сообщений</h1>
+
+      <form method="post">
+        {% csrf_token %}
+
+          <p> <h5>Email</h5>{{ form.from_email}}</p><br>
+          <p><h5>subject</h5>{{ form.subject}}</p><br>
+          <h5>Content</h5>
+        {{ form.message}}
+        <div  class="form-actions form-group ">
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </div>
+      </form>
+    </div>
+     </div>
+
+    </div>
+</body>
+</html>

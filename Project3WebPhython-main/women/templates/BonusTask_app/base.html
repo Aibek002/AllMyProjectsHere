@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%} {%endblock%}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+
+
+</head>
+<body style="background-color:white">
+<div style="display:flex;background:hsl(244, 70%, 27%);color:white;border-radius:100px;flex-direction: column;">
+    <div class="d-flex  flex-shrink-0 p-3" style="width: 1300px;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">👻</span>
+        </a>
+<div align="center">
+        <ul style="color:white" class="nav nav-pills  mb-auto">
+            <li class="nav-item">
+                <a style="color:white" href="" class="nav-link active" aria-current="page">
+                    Home 🏠
+                </a>
+            </li>
+            <li>
+                <a style="color:white" href="contact" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16">
+
+                    </svg>
+                    Send Message📨
+                </a>
+            </li>
+            <li>
+                <a style="color:white" href="addpage" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16">
+
+                    </svg>
+                    Add Post📤
+                </a>
+            </li>
+            <li>
+                <a style="color:white" href="/women/" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16">
+
+                    </svg>ViewPost 👀
+                </a>
+            </li>
+            <li>
+                <a style="color:white" href="/women/1/" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16">
+
+                    </svg>
+                    UpdatePost✏️
+                </a>  <li>
+                <a style="color:white" href="/womendelete/1/" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16">
+
+                    </svg>
+                    DeletePost✂️
+                </a>
+            </li>
+
+
+        </ul></div>
+        <hr>
+        <div class="dropdown">
+        </div>
+    </div>
+    <hr>
+    <div style="margin-left:130px;width:1200px ;"> {%block content%}
+        {%endblock%}
+    </div>
+
+</div>
+
+</body>
+</html>

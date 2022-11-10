@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for el in news %}
+<div  style="border-radius:21px;width:95%"  class="p-3= mb-2 bg-primary text-white text-center">
+         <br> <h3>{{ el.title }}</h3> <br>
+                <p>{{ el.news }}</p>
+    {%endfor%}
+</div>
+</body>
+</html>

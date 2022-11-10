@@ -1,0 +1,159 @@
+@media screen and (max-width: 712px) {
+    .flex-box {
+        display: flex;
+  
+      }
+    #if{
+        width:80%;
+        height:300px;
+        margin-left: 10%;
+      
+
+      }
+    #img1{
+        width:80%;
+        height:300px;
+        margin-left: 10%;
+      }
+    header{
+        background-color: #010c6e;
+        color:  aliceblue;
+    }
+    #headerOfTable{
+        font-size: 12px;
+    }
+   #ul1 {
+    margin-left: 1%;
+    }
+    img{
+        width: 100%;
+        height: 250px;
+    }
+    #a1{
+        margin-left: 5px;
+        font-size: 10px;
+        width: 25%;
+
+        color:aliceblue;
+    }
+#tablebody{
+    font-size: 10px;
+}
+    h1{
+        text-align: center;
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+        font-style: italic;
+        color:#0d065e;
+        text-align: center;
+    }
+    #iframe1{
+        margin-top: 10%;
+        width: 100%;
+        height: 200px;
+    }
+    #myDIV {
+        
+        height:100px;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    
+        background-color: #010c6e;
+       
+       
+      }
+      #myDIV div {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        margin-left: 30%;
+        
+      }
+  }
+  @media screen and (min-width: 715px) {
+
+    .flex-box {
+        display: flex;
+  flex-wrap: wrap;
+  
+  
+      }
+         
+    img{
+        width: 100%;
+        height: 300px;
+    }
+
+    header{
+        background-color: #010c6e;
+        color:  aliceblue;
+    }
+    #headerOfTable{
+        font-size: 20px;
+    }
+   #ul1 {
+    margin-left: 28%;
+    }
+    #a1{
+        margin-left: 50px;
+        font-size: 20px;
+        color:aliceblue;
+    }
+#tablebody{
+    font-size: 20px;
+}
+    h1{
+        text-align: center;
+       
+    }
+    h2{
+        font-style: italic;
+        color:#0d065e;
+        text-align: center;
+    }
+    #iframe1{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        height: 500px;
+    }
+    .table{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        height: 400px;
+    }
+
+    #myDIV {
+        width: 80%;
+        margin-left: 10%;
+        height:100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        background-color: #010c6e;
+        padding: 10px;
+        grid: 70px / auto auto auto;
+      }
+      #myDIV div {
+      
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      #img1{
+        width:80%;
+        height:800px;
+        margin-left: 10%;
+      }
+      #if{
+        width:80%;
+        height:800px;
+        margin-left: 10%;
+      
+
+      }
+  }

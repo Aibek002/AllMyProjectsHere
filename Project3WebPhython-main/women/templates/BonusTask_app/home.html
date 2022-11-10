@@ -1,0 +1,26 @@
+{% extends 'BonusTask_app/base.html' %}
+{%block title%}
+Home Page
+{%endblock%}
+{%block content%}
+<h1> Posts in 🗂</h1>
+{% for p in posts %}
+<div align="right"><p style="font-size:20px">{{p.time_create}}<span style="font-size:40px">⏱</span></p>
+</div>
+<div style="margin-left:100px"><h1>{{p.title}}</h1>
+    <div style="display:flex">
+        <div>{% if post.photo %}
+            <p><img class="img-article-left" src="{{p.media}}"></p>
+            {% endif %}
+        </div>
+        <div><h2>{{p.nameAdmin}}</h2>
+            <p>{{p.content}}</p></div>
+    </div>
+
+    <!--    <p>{{p.time_create}}</p>-->
+    <a href="{{ p.get_absolute_url }}" role="button" class="btn btn-primary">Читить пост</a>
+</div>
+
+
+{% endfor %}
+{%endblock%}
