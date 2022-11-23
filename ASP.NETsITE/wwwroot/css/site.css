@@ -1,0 +1,121 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .nav-item{
+    width: 25%;
+    font-weight: bold;
+  }
+  #imgCenter{
+    width: 50%;
+  }
+  
+}
+#AboutLibrary{
+  width: 70%;
+  margin-left: 15%;
+}
+#Book{
+  width: 70%;
+  margin-left: 15%;
+
+}
+.col-lg-4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#cart{
+  width: 70%;
+  height: 400px;
+  margin-left: 15%;
+}
+#imgBook{
+  width: 200px;
+  height: 200px;
+}
+#news{
+  margin-left: 25%;
+  width: 50%;
+}
+.col-md-7{
+  height: 400px;
+}
+#NewsImg{
+  width:300px;
+  height: 350px;
+}
+#imgAboutLibrary{
+  width:200px;
+  height: 250px;
+}
+#imgCenter{
+  width: 50%;
+}
+.nav-item{
+  width: 25%;
+  font-weight: bold;
+}
+#logoH1{
+  text-align: center;
+  /* margin-top: 25%; */
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  animation: neon-1 .1s ease-in-out infinite alternate;
+  
+}
+@keyframes neon-1 {
+  from {
+      text-shadow: 0 0 6px rgba(4, 8, 251, 0.92), 0 0 30px rgba(163, 133, 255, 0.34), 0 0 12px rgb(26, 33, 171), 0 0 21px rgba(191, 226, 255, 0.92), 0 0 34px rgba(191, 226, 255, 0.78), 0 0 54px rgba(191, 226, 255, 0.92);
+  }
+  to {
+      text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(191, 226, 255, 0.58), 0 0 22px rgba(191, 226, 255, 0.84), 0 0 38px rgba(191, 226, 255, 0.88), 0 0 60px #FFF;
+  }
+}
+
+
+#imgFooter{
+  width: 150px;
+  height: 150px;
+  margin-right: 100%;
+}
+header {
+  width: 50%;
+  margin-left: 25%;
+
+}
+#header{
+  height: 150px;
+
+}
+main{
+  width: 80%;
+  margin-left: 15%;
+}
+#logo{
+  background:url('https://img.freepik.com/free-photo/above-view-books-arrangement_23-2148882757.jpg?w=1380&t=st=1669099040~exp=1669099640~hmac=37d9a1f1ef03b09387ee1f58e9e98db433fb5f5620a608321c082ec3e1cc189d');
+  background-size: 100% 150%;
+  height: 150px;
+  width: 50%;
+  margin-left: 25%;
+}
+footer{
+  background: url('https://img.freepik.com/premium-vector/kids-reading-book-cartoon-child-library-happy-kid-read-books-and-book-stack-isolated-illustration_102902-891.jpg?w=1480');
+  background-size: 82% 230%;
+  height: 200px;
+  margin-top: 60px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: white;
+  /* background-repeat: no-repeat;   */
+  background-size: 100% 100%;
+}
