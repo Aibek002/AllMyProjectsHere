@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="728.105" height="637.017" viewBox="0 0 728.105 637.017">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf4cfc"/>
+      <stop offset="1" stop-color="#386dd1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.033" y1="0.198" x2="0.741" y2="0.557" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#803ddd"/>
+      <stop offset="1" stop-color="#4e81d3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x2="1.026" y2="0.424" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3899fa"/>
+      <stop offset="1" stop-color="#6e0d9a"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.672" cy="0.193" r="0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Triangle" transform="translate(24.051 24.054)" opacity="0.302">
+    <path id="Top" d="M643.793,0,36.209.015,0,62.7l533.8.172L339.986,400.8l36.209,62.7Z" transform="translate(0.014 0)" fill="url(#linear-gradient)"/>
+    <path id="Right" d="M542.949,0l-267.6,463.5L80.152,125.413l-73.279-.455L275.365,588.9,579.141,62.7Z" transform="translate(100.859 0)" fill="url(#linear-gradient-2)"/>
+    <path id="Left" d="M303.807,530.2l72.417.016L107.732,66.275l390.223.423L533.819,4.187,0,4Z" transform="translate(0 58.694)" fill="url(#linear-gradient-3)"/>
+    <path id="Shadow" d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z" transform="translate(0.003 0)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITS Partner</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobileAdaptations.css">
+</head>
+
+<body>
+  <header>
+
+
+
+
+    <div class="row">
+
+      <div class="col-sm">
+        <svg id="imgTitle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 844.51 753.423">
+          <defs>
+            <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="2.5" gradientUnits="objectBoundingBox">
+              <stop offset="0" stop-color="#408aef" />
+              <stop offset="0.192" stop-color="#b25ac2" />
+              <stop offset="0.483" stop-color="#18419d" />
+              <stop offset="0.739" stop-color="#b91bd3" />
+              <stop offset="1" stop-color="#408aef" />
+            </radialGradient>
+          </defs>
+          <g id="Triangle_Glow" data-name="Triangle Glow" transform="translate(-286.849 -171.818)">
+            <path id="Glow_More" data-name="Glow More"
+              d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z"
+              transform="translate(369.105 254.075)" fill="url(#radial-gradient)" />
+            <path id="Glow"
+              d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z"
+              transform="translate(369.105 254.075)" fill="url(#radial-gradient)" />
+          </g>
+        </svg>
+        <h1 id="headerH1">penrose</h1>
+
+      </div>
+    
+      <div class="col-sm">
+
+       <a id="home" href="">
+          HOME
+        </a>
+        <a id="a" href="">
+          NEW COLLECTIONS
+        </a> 
+        <div id="ss"  class="dropdown">
+         <a id="b" href="">STORE ></a>
+          <div class="dropdown-content">
+         <a id="s" href="/">Women</a>
+         <br>
+         <a id="s" href="/">Men</a>
+         <br>
+         <a id="s" href="/">Kids</a>
+          </div>
+        </div>
+       
+       <a  href="" id="c">CONTACTS
+        </a>
+
+
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+
+  
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div style="margin-bottom:20px;"></div>
+
+      <div class="numbertext"><p id="p" style="color: #FF00CE;font-size: 105px;position:absolute;bottom: 0px; ">"</p></div>
+      <div class="text">Blandit et augue nulla suscipit ut ut quis ad feugiat <br>ut luptatum , consequat , lobortis ,
+        aliquip dolore, <br> iriure veniam te dolor aliquip .
+        <br>
+        <br>
+        <a style="margin-left: 60%; color: aqua;" href="/"> Emerson Hawkins</a>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"><p id="p" style="color: #FF00CE;font-size: 105px;position:absolute;bottom: 0px; ">"</p></div>
+      <div class="text"> Hendrerit aliquam odio accumsan ea commodo augue <br>dolore zzril commodo facilisis in
+        tation<br> nulla iriure dolore feugai facilisis praesent .  <br>
+        <br>
+  
+        <a style="margin-left: 60%; color: aqua;" href="/"> Terry Matthew</a>
+  
+      </div>
+    
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"><p id="p" style="color: #FF00CE;font-size: 105px;position:absolute;bottom: 0px; ">"</p></div>
+
+      <div class="text">Consequat aliquip lobortis
+        consectetuer adipiscing
+        volutpat ad <br>autem veniam hendrerit consequat te quis suscipit dolor<br> consequat in . Duis ex , diam
+        hendrerit .
+        <br><br>
+      <a style="margin-left: 60%; color: aqua;" href="/"> Reggie Henry</a>
+
+      </div>
+     
+      
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+
+
+
+    <div style="text-align:center;margin-top: 20px;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  <br>
+
+
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) {
+
+        slideIndex = slides.length
+
+
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <svg id="title" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="600"
+    viewBox="0 0 336 428">
+    <defs>
+      <filter id="Pen_Rose" x="0" y="0" width="336" height="315" filterUnits="userSpaceOnUse">
+        <feOffset input="SourceAlpha" />
+        <feGaussianBlur stdDeviation="9" result="blur" />
+        <feFlood flood-color="#ff00eb" flood-opacity="0.788" />
+        <feComposite operator="in" in2="blur" />
+        <feComposite in="SourceGraphic" />
+      </filter>
+      <filter id="Coctail" x="10" y="235" width="316" height="156" filterUnits="userSpaceOnUse">
+        <feOffset input="SourceAlpha" />
+        <feGaussianBlur stdDeviation="6" result="blur-2" />
+        <feFlood flood-color="#0dabff" flood-opacity="0.8" />
+        <feComposite operator="in" in2="blur-2" />
+        <feComposite in="SourceGraphic" />
+      </filter>
+    </defs>
+    <g id="Title" transform="translate(-37 -244)">
+      <text id="A_fashion_club" data-name="A fashion club" transform="translate(346 279)" fill="#fff" font-size="24"
+        font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600" letter-spacing="0.05em" opacity="0.499">
+        <tspan x="-186" y="0">A FASHION CLUB</tspan>
+      </text>
+      <text id="Jump_at_a_chance_to_participate_in_our_new_fashion_adventure_"
+        data-name="Jump at a chance to participate in our new fashion adventure " transform="translate(63 626)"
+        fill="#fff" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro" opacity="0.499">
+        <tspan>Jump at a chance to participate in </tspan>
+        <tspan x="0" y="30">ouhttps://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelliner new fashion adventure </tspan>
+      </text>
+      <g transform="matrix(1, 0, 0, 1, 37, 244)" filter="url(#Pen_Rose)">
+        <text id="Pen_Rose-2" data-name="Pen
+      Rose" transform="translate(309 145)" fill="#d923cb" font-size="120"
+          font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600">
+          <tspan x="-213" y="0">PEN</tspan>
+          <tspan x="-281" y="110">ROSE</tspan>
+        </text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 37, 244)" filter="url(#Coctail)">
+        <text id="Coctail-2" data-name="Coctail" transform="translate(308 347)" fill="#45e7f4" font-size="96"
+          font-family="SourceSansPro-SemiboldIt, Source Sans Pro" font-weight="600" font-style="italic">
+          <tspan x="-279" y="0">Coctail</tspan>
+        </text>
+      </g>
+    </g>
+  </svg>
+  <img id="girl" src="/home/aibek/Рабочий стол/ProjectsOfWeb/ITS Front-End Intern Test/css/img/Model@2x.png">
+
+  <iframe style="border: none;"  allowfullscreen  width="300" height="300" target="_blank"  target="_parent" src="https://www.youtube.com/embed/dg6qJP-DgO4" ></iframe>
+    <svg id="imgCenter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300px"
+    viewBox="0 0 728.105 637.017">
+    <defs>
+      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#bf4cfc" />
+        <stop offset="1" stop-color="#386dd1" />
+      </linearGradient>
+      <linearGradient id="linear-gradient-2" x1="0.033" y1="0.198" x2="0.741" y2="0.557"
+        gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#803ddd" />
+        <stop offset="1" stop-color="#4e81d3" />
+      </linearGradient>
+      <linearGradient id="linear-gradient-3" x2="1.026" y2="0.424" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#3899fa" />
+        <stop offset="1" stop-color="#6e0d9a" />
+      </linearGradient>
+      <radialGradient id="radial-gradient" cx="0.672" cy="0.193" r="0.25" gradientUnits="objectBoundingBox">
+        <stop offset="0" />
+        <stop offset="1" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+    <g id="Triangle" transform="translate(24.051 24.054)" opacity="0.302">
+      <path id="Top" d="M643.793,0,36.209.015,0,62.7l533.8.172L339.986,400.8l36.209,62.7Z"
+        transform="translate(0.014 0)" fill="url(#linear-gradient)" />
+      <path id="Right" d="M542.949,0l-267.6,463.5L80.152,125.413l-73.279-.455L275.365,588.9,579.141,62.7Z"
+        transform="translate(100.859 0)" fill="url(#linear-gradient-2)" />
+      <path id="Left" d="M303.807,530.2l72.417.016L107.732,66.275l390.223.423L533.819,4.187,0,4Z"
+        transform="translate(0 58.694)" fill="url(#linear-gradient-3)" />
+      <path id="Shadow"
+        d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z"
+        transform="translate(0.003 0)" fill="url(#radial-gradient)" />
+    </g>
+  </svg>
+
+  <script src="./javas.js"></script>
+</body>
+
+</html>

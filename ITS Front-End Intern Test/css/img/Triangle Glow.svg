@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="844.51" height="753.423" viewBox="0 0 844.51 753.423">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#408aef"/>
+      <stop offset="0.192" stop-color="#b25ac2"/>
+      <stop offset="0.483" stop-color="#18419d"/>
+      <stop offset="0.739" stop-color="#b91bd3"/>
+      <stop offset="1" stop-color="#408aef"/>
+    </radialGradient>
+  </defs>
+  <g id="Triangle_Glow" data-name="Triangle Glow" transform="translate(-286.849 -171.818)">
+    <path id="Glow_More" data-name="Glow More" d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z" transform="translate(369.105 254.075)" fill="url(#radial-gradient)"/>
+    <path id="Glow" d="M181,125.416l316.948-.016L339.991,400.81ZM643.8,0,36.194.016,0,62.7l303.8,526.21h72.4L680,62.7Z" transform="translate(369.105 254.075)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
